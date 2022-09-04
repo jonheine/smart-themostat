@@ -9,7 +9,7 @@ print("connecting to broker")
 client.connect(broker_address) #connect to broker
 #print("Subscribing to topic","house/bulbs/bulb1")
 #client.subscribe("house/bulbs/bulb1")
-print("Publishing message to topic","house/thermostat/state")
+print("Publishing message to topic","house/thermostat/getstate")
 client.publish("house/thermostat/getstate","Get")
 
 
